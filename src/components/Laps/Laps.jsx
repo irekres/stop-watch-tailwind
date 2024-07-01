@@ -23,7 +23,7 @@ export const Laps = ({ laps, classes }) => {
           </thead>
           <tbody>
             {laps.map((lap) => (
-              <Lap key={lap.nr}>{lap}</Lap>
+              <Lap key={lap.id}>{lap}</Lap>
             ))}
           </tbody>
         </table>

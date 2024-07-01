@@ -1,3 +1,8 @@
 import { StopWatch } from "./components/StopWatch.jsx";
 import "./App.css";
-export const App = () => <StopWatch />;
+import { StrictMode } from "react";
+export const App = () => (
+  <StrictMode>
+    <StopWatch />
+  </StrictMode>
+);

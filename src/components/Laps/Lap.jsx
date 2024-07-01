@@ -1,4 +1,4 @@
-import { timeFormat } from "../../../utils/timeFirmat.js";
+import { timeFormat } from "../../../utils/timeFormat.js";
 
 export const Lap = ({ children }) => (
   <tr>
