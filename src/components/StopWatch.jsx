@@ -48,10 +48,7 @@ export const StopWatch = () => {
   };
 
   return (
-    <div
-      className="h-screen min-w-[700px] min-h-96
-    grid grid-cols-[300px_1fr] auto-rows-fr"
-    >
+    <div className="h-screen min-w-[800px] min-h-[800px] grid grid-cols-[300px_1fr] auto-rows-fr">
       <Clocks
         timeFull={timeFull}
         timeLap={timeLap}
